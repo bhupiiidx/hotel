@@ -1,0 +1,30 @@
+.logincard {
+    position: absolute;
+    background-color: #f8f9fa;
+    padding: 20px;
+    width: 400px;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+
+}
+.logincard h1 {
+    font-size: 40px;
+}
+
+.sub-btn {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logincard {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .logincard {
+        z-index: -1;
+    }
+}

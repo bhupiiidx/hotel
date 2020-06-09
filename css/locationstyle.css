@@ -1,0 +1,33 @@
+
+.shadow-card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+.card-title{
+    font-size: 15px;
+}
+.card-text{
+    font-size: 13px;
+}
+.card-button{
+    width: 100%;
+    margin: 2px 1px;
+    font-size: 13px;
+}
+.shadow-card img{
+    height: 100px;
+    width: 100px!important;
+    margin: auto;
+    /* margin-top: 10px!important; */
+    padding-top: 10px;
+}
+@media only screen and (max-width: 990px) {
+    .shadow-card {
+        width: 20rem;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .d-flex{
+        flex-direction: column;
+        justify-content: start!important;
+    }
+}

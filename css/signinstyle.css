@@ -1,0 +1,16 @@
+.sign-h1{
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 30px;
+    line-height: 50px;
+    margin: 30px 0px;
+}
+.passverify{
+    color: #8c8c8c;
+}
+@media only screen and (max-width: 1000px) {
+.sub-btn {
+    width: 100%;
+    margin-bottom: 20px;
+}
+}
